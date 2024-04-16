@@ -4,13 +4,13 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 @app.route('/users')
-# @app.route('/age')
-# def get_users():
-#     # Read data from the JSON file
-#     with open('dummy.json') as f:
-#         data = json.load(f)
-#     users = data['users']
-#     return jsonify(users)
+@app.route('/age')
+def get_users():
+    # Read data from the JSON file
+    with open('dummy.json') as f:
+        data = json.load(f)
+    users = data['users']
+    return jsonify(users)
 
 @app.route('/words')
 def get_words():
