@@ -99,8 +99,8 @@ def gameloop():
                         
                         
                         # Cheat code to increase score illegally
-                    if event.key == pygame.K_q:
-                        score += 50
+                    # if event.key == pygame.K_q:
+                    #     score += 50
             # Update snake position according to velocity
             snake_x = snake_x + velocity_x
             snake_y = snake_y + velocity_y
@@ -111,8 +111,8 @@ def gameloop():
                 food_x = random.randint(20, screen_width / 2)
                 food_y = random.randint(20, screen_height) / 2
                 snake_length += 5
-                if score>int(highscore):
-                    highscore = score
+                # if score>int(highscore):
+                #     highscore = score
 
             # Game Canvas Background
             gameWindow.fill(maroon)
@@ -154,5 +154,5 @@ def gameloop():
     pygame.quit()
     quit()
 
-
 gameloop()
+
