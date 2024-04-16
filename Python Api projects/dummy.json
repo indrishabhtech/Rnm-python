@@ -1,0 +1,37 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Alice",
+            "age": 30
+        },
+        {
+            "id": 2,
+            "name": "Bob",
+            "age": 25
+        },
+        {
+            "id": 3,
+            "name": "Charlie",
+            "age": 35
+        }
+    ],
+    "words": [
+        {
+            "id": 1,
+            "word": "lively",
+            "synonym": "Active",
+            "antonym": "sluggish"
+        },
+        {
+            "id": 2,
+            "word": "comic",
+            "synonym": "funny",
+            "antonym": "Tragic"
+        },
+        {
+            "word": "new",
+            "synonym": "fresh"
+        }
+    ]
+}

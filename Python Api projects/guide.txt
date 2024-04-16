@@ -1,0 +1,4 @@
+to use flask imr
+and also JSON
+use postman or thunder for request
+you can send POST requests to /words/add to add a new word along with its synonyms and to /words/<word>/antonym to add an antonym for a specific word. Make sure to send the appropriate JSON data in the request body when making these POST requests.
