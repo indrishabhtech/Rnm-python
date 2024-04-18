@@ -1,0 +1,5 @@
+This project is working..
+Just copy and paste the code into your environment
+
+and make sure to replace api key and other things
+This works on free api so make sure to check this in your local first then if you have paid api so you can go for the deplyoment

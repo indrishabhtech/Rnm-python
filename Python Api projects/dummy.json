@@ -32,6 +32,22 @@
         {
             "word": "new",
             "synonym": "fresh"
+        },
+        {
+            "word": "man",
+            "synonym": "male"
+        },
+        {
+            "word": "Good",
+            "antonym": "Bad"
+        },
+        {
+            "word": "father",
+            "synonym": "papa"
+        },
+        {
+            "word": "yaha",
+            "synonym": "here"
         }
     ]
 }

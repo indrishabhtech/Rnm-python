@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#toy-image {
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 20px;
+}

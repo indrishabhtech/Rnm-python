@@ -28,6 +28,19 @@ def add_word():
         json.dump(data, f, indent=4)
     return jsonify({'message': 'Word added successfully'}), 201
 
+
+# Route to add a new word with its antonyms
+# @app.route('/words/antonym', methods=['POST'])
+# def add_word():
+#     data = read_json_file()
+#     new_word = {}
+#     new_word['word'] = input("Enter the word: ")
+#     new_word['antonym'] = input("Enter the antonym: ")
+#     data['words'].append(new_word)
+#     with open('dummy.json', 'w') as f:
+#         json.dump(data, f, indent=4)
+#     return jsonify({'message': 'Word added successfully'}), 201
+
 # Route to add antonyms for a specific word
 @app.route('/words/<word>/antonym', methods=['POST'])
 def add_antonym(word):
@@ -39,7 +52,7 @@ def add_antonym(word):
             with open('dummy.json', 'w') as f:
                 json.dump(data, f, indent=4)
             return jsonify({'message': 'Antonym added successfully'}), 201
-    return jsonify({'error': 'Word not found'}), 404
+    return jsonify({'error': 'Word not found or word could not be added '}), 404
 
 if __name__ == '__main__':
     app.run(debug=True)

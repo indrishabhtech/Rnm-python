@@ -17,40 +17,6 @@ else:
     
     
     
-    import requests
-    
-    url = "https://rnmguide.netlyfy.app/json/dummy.json"
-    
-    querystring = {"question_id" :"question" ,"answer_id" :"answer"}
-    
-    headers = {
-        
-        "json-API-key":
-        "loeremwi3iewoiediwieoeie",
-        "json-API-Host":
-            "dfjskgksfgk.rnmguide.netlify.app"
-    }
-    
-    response = requests.get(url, headers=headers, params=querystring)
-    
-    print(response.json)
-    
-    
-    import requests
-    
-    url = ""
-    
-    querystring = { "id" :"name" , "email" : "password"}
-    
-    headers = {
-        " Api key" :
-            "uifdsi" , 
-        "Api - Host" :
-        
-        
-            "xyz.com"
-    }
-    
     
     
     
