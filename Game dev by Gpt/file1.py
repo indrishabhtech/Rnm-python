@@ -85,7 +85,10 @@ class Food:
         r = pygame.Rect((self.position[0], self.position[1]), (BLOCK_SIZE, BLOCK_SIZE))
         pygame.draw.rect(surface, self.color, r)
         pygame.draw.rect(surface, BLACK, r, 1)
-
+        
+    
+    
+    
 # Directions
 UP = (0, -1)
 DOWN = (0, 1)
@@ -112,7 +115,8 @@ def main():
             score +=10
             print(score)
             food.randomize_position()
-
+            
+           
         snake.draw(screen)
         food.draw(screen)
         pygame.display.update()
